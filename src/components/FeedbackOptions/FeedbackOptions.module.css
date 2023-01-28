@@ -1,0 +1,22 @@
+.feedbackBtns {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.feedbackBtn {
+  padding: 5px 0;
+  width: 50px;
+  text-align: center;
+  font-size: 12px;
+
+  background-color: antiquewhite;
+
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.feedbackBtn:hover {
+  background-color: rgb(253, 231, 203);
+}
