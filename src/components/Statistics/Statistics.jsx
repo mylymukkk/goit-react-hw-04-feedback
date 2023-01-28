@@ -24,7 +24,7 @@ export const Statistics = ({
           Total: <span className={css.statisticValue}>{total}</span>
         </p>
         <p className={css.statisticItem}>
-          Positive feedback:{' '}
+          Positive feedback:
           {Number.isNaN(positivePercentage) ? (
             <span className={css.statisticValue}>0%</span>
           ) : (
@@ -37,9 +37,9 @@ export const Statistics = ({
 };
 
 Statistics.propTypes = {
-  good: PropTypes.number,
-  neutral: PropTypes.number,
-  bad: PropTypes.number,
-  total: PropTypes.number,
-  positivePercentage: PropTypes.number,
+  good: PropTypes.number.isRequired,
+  neutral: PropTypes.number.isRequired,
+  bad: PropTypes.number.isRequired,
+  total: PropTypes.number.isRequired,
+  positivePercentage: PropTypes.number.isRequired,
 };

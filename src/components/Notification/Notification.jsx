@@ -5,4 +5,4 @@ export const Notification = ({ message }) => {
   return <p className={css.notificationText}>{message}</p>;
 };
 
-Notification.propTypes = { message: PropTypes.string };
+Notification.propTypes = { message: PropTypes.string.isRequired };
